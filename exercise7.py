@@ -1,0 +1,5 @@
+snake_string=input()
+result=snake_string.split("_")
+print(result)
+camel_string=result[0]+"".join(i.title()for i in result[1:])
+print(camel_string)
